@@ -167,11 +167,11 @@ function Home() {
             <div className='w-full text-center px-10 xl:px-36'>
                 <div className='mb-10'>
                     <h1 className='text-3xl mb-4 font-bold'>How it works?</h1>
-                    <p className='font-light w-3/4 mx-auto'>Buyers post their needs and review top suppliers, while suppliers complete profiles, connect with potential buyers, and build successful business relationships, sharing valuable feedback.</p>
+                    <p className='font-light w-full md:w-3/4 mx-auto'>Buyers post their needs and review top suppliers, while suppliers complete profiles, connect with potential buyers, and build successful business relationships, sharing valuable feedback.</p>
                 </div>
                 <div className='w-full h-33 flex flex-wrap'>
                     {workItems.map((item, index) => (
-                        <div key={index} className='w-full md:w-1/2 xl:w-1/3 work-items min-h-44 text-center p-10'>
+                        <div key={index} className='w-full sm:w-1/2 md:w-1/3 work-items min-h-44 text-center p-10'>
                             <div className='mb-4 w-full'>
                                 <img src={item.url} alt="Card Pencil" className='mx-auto' />
                             </div>
