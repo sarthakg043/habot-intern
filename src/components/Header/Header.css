@@ -1,0 +1,31 @@
+.logo{
+    width: 11rem;
+    height: 2.5rem;
+}
+
+.logo img{
+    top: -68px;
+}
+
+@media screen and (max-width: 768px) {
+    .logo{
+        width: 10rem;
+        height: 2.2rem;
+    }
+
+    .logo img{
+        top: -63px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo{
+        width: 8rem;
+        height: 1.8rem;
+    }
+
+    .logo img{
+        top: -48px;
+    }
+    
+}

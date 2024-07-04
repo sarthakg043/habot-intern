@@ -1,0 +1,68 @@
+.jumbotorn{
+    background: linear-gradient(356.01deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%), linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45)), url('https://s3-alpha-sig.figma.com/img/4df9/f396/c8b4ef806609efd227c6672c5dba3716?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=K2UxfnY58deGNulF4vJl83oTTTZS28rmChiUyqtpiF5AHzxD-o3qp3hK0DQH9fHppSd1uagHm9Z3O~s3UgniuwdiegAmaH4uXv5e1keDCq~Ta~SrJJc-H7LtLImtK6JmDSPiHq6KNpGBA~ouXn8Z6OqzjXnL6S6~CIeRcRiJaETe5OU51H1C~XzO-uXsTYsF-0lYRn7v8QC9PHwEozWD5LCCvkzVQcrncw0WdvIuIs2eBYu3Ka42uWrWvPceGXQL5RJcaApAwXQmKbEvfN3iSTXmtuWCahggwMD99OY5zZkKScztw7RJSvwTwoK3Odqepl-Vp-mDZlcgxkZH4B37IA__');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 20px;
+    height: 70vh;
+}
+
+.youtube-frame{
+    width: 304px;
+    height: 171px;
+}
+
+
+@media screen and (min-width: 400px){
+    .youtube-frame{
+        width: 320x;
+        height: 180px;
+    }   
+}
+@media screen and (min-width: 513px){
+    .youtube-frame{
+        width: 480px;
+        height: 270px;
+    }   
+}
+@media screen and (min-width: 768px){
+    .youtube-frame{
+        width: 560px;
+        height: 315px;
+    }   
+}
+@media screen and (min-width: 862px){
+    .youtube-frame{
+        width: 640px;
+        height: 360px;
+    }   
+}
+
+@media screen and (min-width: 1280px){
+    .youtube-frame{
+        width: 480px;
+        height: 270px;
+    }
+}
+
+@media screen and (min-width: 1340px){
+    .youtube-frame{
+        width: 560px;
+        height: 315px;
+    }
+}
+
+.work-items:nth-child(odd){
+    @apply bg-secondary-cyan;
+}
+
+.work-items:nth-child(even){
+    @apply bg-white;
+}
