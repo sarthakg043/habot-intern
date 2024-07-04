@@ -111,7 +111,7 @@ function Home() {
             </div>
             <div className='relative w-full bg-primary-blue text-white p-0 sm:p-16 md:p-24 rounded-lg'>
                 <div className='w-full flex flex-wrap justify-center xl:justify-between'>
-                    <div className='w-full xl:w-7/12 flex justify-center'>
+                    <div className='w-full xl:w-7/12 flex justify-center pt-4'>
                         <iframe className='youtube-frame' src="https://www.youtube.com/embed/IZLp-TZyDkQ?si=gCCNRby09dWzgPSS" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     </div>
                     <div className='w-full xl:w-5/12 flex justify-between p-5 lg:p-10'>
